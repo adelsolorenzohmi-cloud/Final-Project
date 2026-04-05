@@ -3,7 +3,7 @@ let academicData = [];
 // 1. Initialize data from JSON
 async function init() {
     try {
-        const response = await fetch('data.json'); // Ensure this path is correct!
+        const response = await fetch('data/data.json'); // Ensure this path is correct!
         if (!response.ok) throw new Error("Failed to load local data");
         const data = await response.json();
         academicData = data.featured_resources;
