@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Scholar Dashboard</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script type="module" src="scripts/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Global Scholar Dashboard</h1>
+        <p>Your portal for international academic data.</p>
+    </header>
+
+    <main>
+        <section class="controls">
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search API (e.g. Guatemala)">
+                <button id="search-btn"> Fetch Live Info</button>
+            </div>
+
+            <div class="filter-box">
+                <label for="region-filter">Filter Local Data</label>
+                <select id="region-filter">
+                    <option value="all">All Regions</option>
+                    <option value="Americas">Americas</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Africa">Africa</option>
+                </select>
+            </div>
+        </section>
+
+        <section id="api-result">
+            <div id="country-card-container">
+            </div>
+        </section>
+
+        <section id="local-data">
+            <h3>Academic Profiles (Local Database)</h3>
+            <div id="academic-grid" class="grid-container">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 | WDD 330 | BYU-Idaho</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,204 @@
+{
+    "featured_resources": [
+        {
+            "id": "gt",
+            "name": "Guatemala",
+            "region": "Americas",
+            "language": "Spanish",
+            "academic_focus": "Archaeology",
+            "top_uni": "USAC",
+            "scholarships": "Yes",
+            "literacy_rate": "81%"
+        },
+        {
+            "id": "br",
+            "name": "Brazil",
+            "region": "Americas",
+            "language": "Portuguese",
+            "academic_focus": "Aerospace",
+            "top_uni": "USP",
+            "scholarships": "Yes",
+            "literacy_rate": "93%"
+        },
+        {
+            "id": "pt",
+            "name": "Portugal",
+            "region": "Europe",
+            "language": "Portuguese",
+            "academic_focus": "Marine Science",
+            "top_uni": "Coimbra",
+            "scholarships": "No",
+            "literacy_rate": "96%"
+        },
+        {
+            "id": "us",
+            "name": "USA",
+            "region": "Americas",
+            "language": "English",
+            "academic_focus": "Computer Science",
+            "top_uni": "MIT",
+            "scholarships": "Yes",
+            "literacy_rate": "99%"
+        },
+        {
+            "id": "uk",
+            "name": "UK",
+            "region": "Europe",
+            "language": "English",
+            "academic_focus": "Literature",
+            "top_uni": "Oxford",
+            "scholarships": "No",
+            "literacy_rate": "99%"
+        },
+        {
+            "id": "mx",
+            "name": "Mexico",
+            "region": "Americas",
+            "language": "Spanish",
+            "academic_focus": "Civil Engineering",
+            "top_uni": "UNAM",
+            "scholarships": "Yes",
+            "literacy_rate": "95%"
+        },
+        {
+            "id": "es",
+            "name": "Spain",
+            "region": "Europe",
+            "language": "Spanish",
+            "academic_focus": "Arts & History",
+            "top_uni": "Complutense",
+            "scholarships": "No",
+            "literacy_rate": "98%"
+        },
+        {
+            "id": "ca",
+            "name": "Canada",
+            "region": "Americas",
+            "language": "English/French",
+            "academic_focus": "Environmental Sci",
+            "top_uni": "Toronto",
+            "scholarships": "Yes",
+            "literacy_rate": "99%"
+        },
+        {
+            "id": "jp",
+            "name": "Japan",
+            "region": "Asia",
+            "language": "Japanese",
+            "academic_focus": "Robotics",
+            "top_uni": "Tokyo Uni",
+            "scholarships": "Yes",
+            "literacy_rate": "99%"
+        },
+        {
+            "id": "de",
+            "name": "Germany",
+            "region": "Europe",
+            "language": "German",
+            "academic_focus": "Mechanical Eng",
+            "top_uni": "TUM",
+            "scholarships": "Yes",
+            "literacy_rate": "99%"
+        },
+        {
+            "id": "fr",
+            "name": "France",
+            "region": "Europe",
+            "language": "French",
+            "academic_focus": "Philosophy",
+            "top_uni": "Sorbonne",
+            "scholarships": "No",
+            "literacy_rate": "99%"
+        },
+        {
+            "id": "it",
+            "name": "Italy",
+            "region": "Europe",
+            "language": "Italian",
+            "academic_focus": "Architecture",
+            "top_uni": "Politecnico",
+            "scholarships": "No",
+            "literacy_rate": "99%"
+        },
+        {
+            "id": "au",
+            "name": "Australia",
+            "region": "Oceania",
+            "language": "English",
+            "academic_focus": "Medical Research",
+            "top_uni": "Melbourne",
+            "scholarships": "Yes",
+            "literacy_rate": "99%"
+        },
+        {
+            "id": "in",
+            "name": "India",
+            "region": "Asia",
+            "language": "Hindi/English",
+            "academic_focus": "Mathematics",
+            "top_uni": "IIT",
+            "scholarships": "Yes",
+            "literacy_rate": "77%"
+        },
+        {
+            "id": "cn",
+            "name": "China",
+            "region": "Asia",
+            "language": "Mandarin",
+            "academic_focus": "Quantum Tech",
+            "top_uni": "Tsinghua",
+            "scholarships": "Yes",
+            "literacy_rate": "96%"
+        },
+        {
+            "id": "za",
+            "name": "South Africa",
+            "region": "Africa",
+            "language": "English/Zulu",
+            "academic_focus": "Mining Eng",
+            "top_uni": "Cape Town",
+            "scholarships": "No",
+            "literacy_rate": "95%"
+        },
+        {
+            "id": "kr",
+            "name": "South Korea",
+            "region": "Asia",
+            "language": "Korean",
+            "academic_focus": "Semiconductors",
+            "top_uni": "SNU",
+            "scholarships": "Yes",
+            "literacy_rate": "99%"
+        },
+        {
+            "id": "ng",
+            "name": "Nigeria",
+            "region": "Africa",
+            "language": "English",
+            "academic_focus": "Economics",
+            "top_uni": "Ibadan",
+            "scholarships": "No",
+            "literacy_rate": "62%"
+        },
+        {
+            "id": "eg",
+            "name": "Egypt",
+            "region": "Africa",
+            "language": "Arabic",
+            "academic_focus": "Egyptology",
+            "top_uni": "Cairo Uni",
+            "scholarships": "No",
+            "literacy_rate": "71%"
+        },
+        {
+            "id": "ar",
+            "name": "Argentina",
+            "region": "Americas",
+            "language": "Spanish",
+            "academic_focus": "Nuclear Physics",
+            "top_uni": "UBA",
+            "scholarships": "Yes",
+            "literacy_rate": "99%"
+        }
+    ]
+}
