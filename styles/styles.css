@@ -75,6 +75,7 @@ button {
     border-radius: 5px;
     border: 1px solid #ddd;
     font-family: inherit;
+    margin-bottom: 15px;
 }
 
 button {

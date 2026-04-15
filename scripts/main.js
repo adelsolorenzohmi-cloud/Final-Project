@@ -3,17 +3,19 @@ let academicData = [];
 // 1. Initialize data from JSON
 async function init() {
     try {
-        const response = await fetch('data/data.json'); // Ensure this path is correct!
+        const response = await fetch('data/data.json');
         if (!response.ok) throw new Error("Failed to load local data");
         const data = await response.json();
         academicData = data.featured_resources;
         renderGrid(academicData);
+
+        localStorage.setItem('gsd_last_visit', new Date().toLocalSetring());
     } catch (error) {
         console.error("Initialization error:", error);
     }
 }
 
-// 2. Render the Local Grid (Added a check for empty data)
+// 2. Render the Local Grid
 function renderGrid(dataList) {
     const grid = document.getElementById('academic-grid');
     if (!grid) return;
@@ -26,6 +28,7 @@ function renderGrid(dataList) {
     grid.innerHTML = dataList.map(item => `
         <div class="academic-card">
             <h4>${item.name}</h4>
+            <p><strong>Capital:</strong> ${item.capital || 'N/A'}</p>
             <p><strong>Focus:</strong> ${item.academic_focus}</p>
             <p><strong>Top Uni:</strong> ${item.top_uni}</p>
             <p><strong>Literacy:</strong> ${item.literacy_rate}</p>
@@ -37,18 +40,23 @@ function renderGrid(dataList) {
 // 3. Filter Local Data
 document.getElementById('region-filter')?.addEventListener('change', (e) => {
     const region = e.target.value;
+
+    localStorage.setItem('gsd_region_pref', region);
+
     const filtered = region === 'all'
         ? academicData
         : academicData.filter(item => item.region === region);
     renderGrid(filtered);
 });
 
-// 4. Search External API (Refined with Optional Chaining)
+// 4. Search External API
 document.getElementById('search-btn')?.addEventListener('click', async () => {
     const query = document.getElementById('search-input').value.trim();
     const container = document.getElementById('country-card-container');
 
     if (!query) return;
+
+    localStorage.setItem('gsd_last_query', query);
 
     container.innerHTML = `<p>Searching for ${query}...</p>`; // Loading state
 
@@ -77,6 +85,10 @@ document.getElementById('search-btn')?.addEventListener('click', async () => {
     } catch (error) {
         container.innerHTML = `<p style="color:red">Error: ${error.message}</p>`;
     }
+});
+
+document.getElementById('search-input')?.addEventListener('focus', () => {
+    localStorage.setItem('gsd_status', 'User is typing...');
 });
 
 init();

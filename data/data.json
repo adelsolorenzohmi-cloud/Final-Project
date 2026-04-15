@@ -3,6 +3,7 @@
         {
             "id": "gt",
             "name": "Guatemala",
+            "capital":"Guatemala City",
             "region": "Americas",
             "language": "Spanish",
             "academic_focus": "Archaeology",
@@ -13,6 +14,7 @@
         {
             "id": "br",
             "name": "Brazil",
+            "capital": "Brasilia",
             "region": "Americas",
             "language": "Portuguese",
             "academic_focus": "Aerospace",
@@ -23,6 +25,7 @@
         {
             "id": "pt",
             "name": "Portugal",
+            "capital": "Lisbon",
             "region": "Europe",
             "language": "Portuguese",
             "academic_focus": "Marine Science",
@@ -33,6 +36,7 @@
         {
             "id": "us",
             "name": "USA",
+            "capital": "Washington, D.C.",
             "region": "Americas",
             "language": "English",
             "academic_focus": "Computer Science",
@@ -43,6 +47,7 @@
         {
             "id": "uk",
             "name": "UK",
+            "capital": "London",
             "region": "Europe",
             "language": "English",
             "academic_focus": "Literature",
@@ -53,6 +58,7 @@
         {
             "id": "mx",
             "name": "Mexico",
+            "capital": "Mexico City",
             "region": "Americas",
             "language": "Spanish",
             "academic_focus": "Civil Engineering",
@@ -63,6 +69,7 @@
         {
             "id": "es",
             "name": "Spain",
+            "capital": "Madrid",
             "region": "Europe",
             "language": "Spanish",
             "academic_focus": "Arts & History",
@@ -73,6 +80,7 @@
         {
             "id": "ca",
             "name": "Canada",
+            "capital": "Ottawa",
             "region": "Americas",
             "language": "English/French",
             "academic_focus": "Environmental Sci",
@@ -83,6 +91,7 @@
         {
             "id": "jp",
             "name": "Japan",
+            "capital": "Tokyo",
             "region": "Asia",
             "language": "Japanese",
             "academic_focus": "Robotics",
@@ -93,6 +102,7 @@
         {
             "id": "de",
             "name": "Germany",
+            "capital": "Berlin",
             "region": "Europe",
             "language": "German",
             "academic_focus": "Mechanical Eng",
@@ -103,6 +113,7 @@
         {
             "id": "fr",
             "name": "France",
+            "capital": "Paris",
             "region": "Europe",
             "language": "French",
             "academic_focus": "Philosophy",
@@ -113,6 +124,7 @@
         {
             "id": "it",
             "name": "Italy",
+            "capital": "Rome",
             "region": "Europe",
             "language": "Italian",
             "academic_focus": "Architecture",
@@ -123,6 +135,7 @@
         {
             "id": "au",
             "name": "Australia",
+            "capital": "Canberra",
             "region": "Oceania",
             "language": "English",
             "academic_focus": "Medical Research",
@@ -133,6 +146,7 @@
         {
             "id": "in",
             "name": "India",
+            "capital": "New Delhi",
             "region": "Asia",
             "language": "Hindi/English",
             "academic_focus": "Mathematics",
@@ -143,6 +157,7 @@
         {
             "id": "cn",
             "name": "China",
+            "capital": "Beijing",
             "region": "Asia",
             "language": "Mandarin",
             "academic_focus": "Quantum Tech",
@@ -153,6 +168,7 @@
         {
             "id": "za",
             "name": "South Africa",
+            "capital": "Pretoria",
             "region": "Africa",
             "language": "English/Zulu",
             "academic_focus": "Mining Eng",
@@ -163,6 +179,7 @@
         {
             "id": "kr",
             "name": "South Korea",
+            "capital": "Seoul",
             "region": "Asia",
             "language": "Korean",
             "academic_focus": "Semiconductors",
@@ -173,6 +190,7 @@
         {
             "id": "ng",
             "name": "Nigeria",
+            "capital": "Abuja",
             "region": "Africa",
             "language": "English",
             "academic_focus": "Economics",
@@ -183,6 +201,7 @@
         {
             "id": "eg",
             "name": "Egypt",
+            "capital": "Cairo",
             "region": "Africa",
             "language": "Arabic",
             "academic_focus": "Egyptology",
@@ -193,6 +212,7 @@
         {
             "id": "ar",
             "name": "Argentina",
+            "capital": "Buenos Aires",
             "region": "Americas",
             "language": "Spanish",
             "academic_focus": "Nuclear Physics",
